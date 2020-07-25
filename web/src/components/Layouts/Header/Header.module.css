@@ -1,0 +1,11 @@
+.heading{
+    transform: translate(-50%, -50%);
+    color: aqua;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+}
+.container{
+    background: url('../../../assets/images/header-bg.jpg') no-repeat center/cover;
+  height: 25rem;
+}
