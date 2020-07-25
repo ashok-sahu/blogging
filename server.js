@@ -24,6 +24,10 @@ app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "web", "build", "index.html"));
 });
 
+app.get('/',(req,res)=>{
+  res.send('<h1>hello from the server</h1>')
+})
+
 //server connection
 app.listen(PORT, () => {
   console.log(
