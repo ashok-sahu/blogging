@@ -18,7 +18,7 @@ const Articles = ({ posts }) => {
         <img src={logo} alt="logo" />
       ) : (
         posts.map((article, key) => (
-          <div className="container" key={key}>
+          <div className="container" key={key} style={{border:"1px solid red"}}>
             <Link to={{pathname:`/article/${article._id}`}}>
               <h2>{article.title}</h2>
             </Link>
