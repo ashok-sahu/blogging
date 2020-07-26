@@ -26,7 +26,7 @@ const Articles = ({ posts }) => {
             <span className="badge badge-secondary p-2">
               {article.authorName}
             </span>
-            <div className="row my-y">
+            <div className="row my-y card card-body">
               <div className="col-sm-2">
                 <Link
                   to={`/update/${article._id}`}
